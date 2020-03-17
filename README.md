@@ -71,7 +71,9 @@ If what you need cannot be done with a PostSharp Framework, or if an aspect cann
 
 Unlike PostSharp Framework, PostSharp SDK is neither supported, documented, nor of commercial quality. But since it's the API we're using to build PostSharp Framework, we're pretty confident it works well.
 
-It takes several months for a newly-hired PostSharp developer to become proficient in PostSharp SDK. If it does not sound scary to you, go for it.
+It takes several months for a newly-hired PostSharp developer to become proficient in PostSharp SDK. If it does not sound scary to you, [go for it](addin.md).
+
+[More about PostSharp add-ins](addin.md)
 
 ## How do I get my aspect or add-in listed here?
 
