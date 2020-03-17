@@ -1,3 +1,5 @@
+# Attribute Multicasting
+
 This is an explanation of how [attribute multicasting](https://doc.postsharp.net/attribute-multicasting) works with respect to add-ins.
 
 Often, PostSharp add-ins have an attribute that inherits from [MulticastAttribute](https://doc.postsharp.net/t_postsharp_extensibility_multicastattribute) like this:

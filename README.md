@@ -1,31 +1,78 @@
 # PostSharp
-[PostSharp](https://www.postsharp.net/) is an IL weaver for C#. This readme file is about PostSharp add-ins. For general information on PostSharp, see the main website.
+
+## What is PostSharp?
+
+PostSharp makes C# better so you can get back to the bright side of coding.
+
+With PostSharp, you can eliminate the boilerplate that stems from the implementation of design patterns or features like logging or caching. The result: your code is more readable and maintainable; you can make better use of your time; and your deliverables are more reliable. 
+
+PostSharp combines existing technologies such as aspect-oriented programming, meta-programming, IL weaving and static analysis, and takes them to the next level in a well-engineered approach.
 
 ## How does it work?
-1. Add PostSharp to your project and annotate your code with [CustomAttributes].
-2. The C# or VB.NET compiler builds your code into binaries.
-3. PostSharp analyzes the binary and injects the implementation of aspects or add-ins.
 
-## What are add-ins?
-A PostSharp community add-in is a NuGet package that makes use of PostSharp and modifies your assembly during the compilation process. For example, the [StructuralEquality add-in](https://github.com/postsharp/PostSharp.Community.StructuralEquality) allows you to add an attribute to your classes and have `Equals` and `GetHashCode` methods automatically generated in IL so that they avoid cluttering your C# code.
+1. Instead of cluttering your source code with boilerplate, you add a few [CustomAttributes] telling the compiler what needs to be done. These custom attributes are called *aspects* and they describe how your target code should be enhanced. 
 
-This is a feature in development. Add-ins are not yet publicly available. 
+2. The C# or VB compiler builds your code into binaries as usually.
 
-## Quick start: How do I use a PostSharp add-in?
-1. Find an add-in that you want to use in your project and reference its NuGet package in your project.
-2. Register for a free Community edition license of PostSharp at https://postsharp.net/essentials. 
-    * You will be prompted to enter your license key when you first build the project.
-3. Follow the instruction in the add-in README to add the effect of the add-in to your project. 
-    * Most likely, you will need to add the add-in's attribute to your assembly or some of your classes.
-    * Most attributes in add-ins are multicast attributes. [How does multicasting work?](multicasting.md)
+3. At build time, after the C# compiler finishes, PostSharp injects the repetitive code directly into your binaries.
 
-## How can I choose what namespaces/classes are affected by the add-in?
-For most add-ins, you can use multicasting. [How does multicasting work?](multicasting.md)
+PostSharp comes with a set of ready-made aspects for the most common patterns, and with a powerful toolkit so you can implement your own.
 
-## How can I create my own add-ins?
-Copy the contents of the repository [https://github.com/postsharp/PostSharp.Community.HelloWorld] and follow the README.md file there. 
+## Where can I learn more about it?
 
-## Are add-ins maintained or supported by PostSharp Technologies?
-The add-ins under [this organization](https://github.com/postsharp) are maintained by PostSharp Technologies. You can report bugs in these add-ins against their GitHub repositories and we will look into those issues. 
+* Look at the [PostSharp.Samples](https://github.com/postsharp/PostSharp.Samples) repo. 
 
-However, we don't offer commercial support for these add-ins. We offer commercial support for the PostSharp Aspect Framework and other PostSharp Patterns libraries. 
+* Go to https://www.postsharp.net/documentation.
+
+## What can I concretely do with PostSharp?
+
+TODO: List of available aspects/features including patterns, examples, community add-ins.
+
+## Quick start: How can I use PostSharp in my project?
+
+1. Find an aspect or add-in you want to use in your project and reference its NuGet package in your project. 
+
+2. [Check out](https://www.postsharp.net/get/free) your free PostSharp Community license key. 
+You will be prompted to enter your license key when you first build the project.
+
+## How is PostSharp licensed?
+
+There are three things: PostSharp as a product, PostSharp Community as a free product edition, and the `PostSharp.Community` namespace.
+
+### PostSharp, the product
+
+PostSharp is a commercial product. It includes both free and premium features, and comes with professional support.
+
+### PostSharp Community, the free edition of PostSharp
+
+PostSharp allows for an unlimited use of all free features, plus the use of premium features on a limited number of lines of code.
+
+### PostSharp.Community, the namespace
+
+`PostSharp.Community` is a namespace used to herd open-source extensions to PostSharp, such as add-ins and aspect libraries. 
+
+The extensions under the `PostSharp.Community` namespace are curated by PostSharp Technologies, but we don't necessarily own all intellectual rights on these extensions, nor do we guarantee the same level of quality or support than on PostSharp itself.
+
+Some projects in the `PostSharp.Community` namespace were ported from [Fody](https://github.com/Fody),
+an open-source IL weaver for .NET.
+
+
+## How can I create my own aspect?
+
+### Option 1. Use PostSharp Framework
+
+By far the easiest and most powerful way to create an aspect is to use PostSharp Framework and create an aspect, for instance by deriving a new class from `OnMethodBoundaryAspect` or `MethodInterceptionAspect`. See https://doc.postsharp.net/custom-aspects for details.
+
+PostSharp Framework is a supported product of commercial quality. Many of its features are included for free in PostSharp Community.
+
+### Option 2. Build an add-in with PostSharp SDK
+
+If what you need cannot be done with a PostSharp Framework, or if an aspect cannot reach your performance requirements, you can build a PostSharp add-in using the low-level APIs of PostSharp, called PostSharp SDK.
+
+Unlike PostSharp Framework, PostSharp SDK is neither supported, documented, nor of commercial quality. But since it's the API we're using to build PostSharp Framework, we're pretty confident it works well.
+
+It takes several months for a newly-hired PostSharp developer to become proficient in PostSharp SDK. If it does not sound scary to you, go for it.
+
+## How do I get my aspect or add-in listed here?
+
+Contact us at hello@postsharp.net.
