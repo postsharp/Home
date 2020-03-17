@@ -41,11 +41,11 @@ There are three things: PostSharp as a product, PostSharp Community as a free pr
 
 ### PostSharp, the product
 
-PostSharp is a commercial product. It includes both free and premium features, and comes with professional support.
+PostSharp is a commercial product. It includes both free and premium features, and the premium editions come with professional support. For an overview of the commercial editions, see https://www.postsharp.net/.
 
 ### PostSharp Community, the free edition of PostSharp
 
-PostSharp allows for an unlimited use of all free features, plus the use of premium features on a limited number of lines of code.
+PostSharp Community allows for an unlimited use of all free features, plus the use of premium features on a limited number of lines of code. You can get your free license [here](https://www.postsharp.net/get/free).
 
 ### PostSharp.Community, the namespace
 
