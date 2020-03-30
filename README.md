@@ -41,6 +41,8 @@ You can use ready-made PostSharp Patterns aspects:
 You can use community add-ins:
 * [DeepSerializable](https://github.com/postsharp/PostSharp.Community.DeepSerializable): A [Serializable]-like attribute that applies recursively.
 * [Virtuosity](https://github.com/postsharp/PostSharp.Community.Virtuosity): Make all your methods virtual
+* [StructuralEquality](https://github.com/postsharp/PostSharp.Community.StructuralEquality): Auto-implement Equals and GetHashCode
+* *See [the full list of curated add-ins](addin.md)*
 
 ## Quick start: How can I use PostSharp in my project?
 
@@ -65,11 +67,10 @@ PostSharp Community allows for an unlimited use of all free features, plus the u
 
 `PostSharp.Community` is a namespace used to herd open-source extensions to PostSharp, such as add-ins and aspect libraries. 
 
-The extensions under the `PostSharp.Community` namespace are curated by PostSharp Technologies, but we don't necessarily own all intellectual rights on these extensions, nor do we guarantee the same level of quality or support than on PostSharp itself.
+The extensions under the `PostSharp.Community` namespace are curated by PostSharp Technologies, but we don't necessarily own all intellectual rights on these extensions, nor do we guarantee the same level of quality or support as on PostSharp itself.
 
 Some projects in the `PostSharp.Community` namespace were ported from [Fody](https://github.com/Fody),
 an open-source IL weaver for .NET.
-
 
 ## How can I create my own aspect?
 
