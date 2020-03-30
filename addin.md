@@ -20,9 +20,9 @@ For most add-ins, you can use multicasting. [How does multicasting work?](multic
 
 ## How can I create my own add-ins?
 
-Copy the contents of the repository [https://github.com/postsharp/PostSharp.Community.HelloWorld] and follow the README.md file there. 
+Copy the contents of the repository https://github.com/postsharp/PostSharp.Community.HelloWorld and follow the README.md file there. 
 
-Most of the PostSharp SDK has API-level documentation. This documented is embedded in the NuGet package `PostSharp.Compiler.Engine` so it will show up in IntelliSense.
+Most of the PostSharp SDK has API-level documentation. This documentation is embedded in the NuGet package `PostSharp.Compiler.Engine` so it will show up in IntelliSense.
 
 You can also [join the add-in writers Slack](https://join.slack.com/t/postsharp-addins/shared_invite/zt-d5il7j68-LRfbUOKuP7Hn2Amzb_nnDQ) to get answers to your questions about creating add-ins.
 
