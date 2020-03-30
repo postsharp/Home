@@ -42,7 +42,7 @@ You can use community add-ins:
 * [DeepSerializable](https://github.com/postsharp/PostSharp.Community.DeepSerializable): A [Serializable]-like attribute that applies recursively.
 * [Virtuosity](https://github.com/postsharp/PostSharp.Community.Virtuosity): Make all your methods virtual
 * [StructuralEquality](https://github.com/postsharp/PostSharp.Community.StructuralEquality): Auto-implement Equals and GetHashCode
-* *See [the full list of curated add-ins](addin.md)*
+* [HelloWorld](https://github.com/postsharp/PostSharp.Community.HelloWorld): Base for creating your own add-in
 
 ## Quick start: How can I use PostSharp in my project?
 
