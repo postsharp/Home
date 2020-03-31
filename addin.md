@@ -22,7 +22,9 @@ For most add-ins, you can use multicasting. [How does multicasting work?](multic
 
 Copy the contents of the repository https://github.com/postsharp/PostSharp.Community.HelloWorld and follow the README.md file there. 
 
-Most of the PostSharp SDK has API-level documentation. This documentation is embedded in the NuGet package `PostSharp.Compiler.Engine` so it will show up in IntelliSense.
+Most of the PostSharp SDK has API-level documentation and is available at https://doc.postsharp.net/sdk/. This documentation is also embedded in the NuGet package `PostSharp.Compiler.Engine` so it will show up in IntelliSense. 
 
-You can also [join the add-in writers Slack](https://join.slack.com/t/postsharp-addins/shared_invite/zt-d5il7j68-LRfbUOKuP7Hn2Amzb_nnDQ) to get answers to your questions about creating add-ins.
+## How can I get help?
+
+If you're planning to release your add-in as open source, you're welcome to  [join the add-in writers Slack](https://join.slack.com/t/postsharp-addins/shared_invite/zt-d5il7j68-LRfbUOKuP7Hn2Amzb_nnDQ) to get answers to your questions. Please note we don’t have the capacity to provide support to PostSharp SDK to all users, and will focus our help on open-source contributors. Thank you for your understanding.
 
