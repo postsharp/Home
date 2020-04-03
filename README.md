@@ -39,10 +39,11 @@ You can use ready-made PostSharp Patterns aspects:
 * *More patterns are documented at https://www.postsharp.net/.*
 
 You can use community add-ins:
-* [DeepSerializable](https://github.com/postsharp/PostSharp.Community.DeepSerializable): A [Serializable]-like attribute that applies recursively.
-* [Virtuosity](https://github.com/postsharp/PostSharp.Community.Virtuosity): Make all your methods virtual
 * [StructuralEquality](https://github.com/postsharp/PostSharp.Community.StructuralEquality): Auto-implement Equals and GetHashCode
+* [Virtuosity](https://github.com/postsharp/PostSharp.Community.Virtuosity): Make all your methods virtual
+* [DeepSerializable](https://github.com/postsharp/PostSharp.Community.DeepSerializable): A [Serializable]-like attribute that applies recursively.
 * [HelloWorld](https://github.com/postsharp/PostSharp.Community.HelloWorld): Base for creating your own add-in
+* [UnsafeMemoryChecker](https://github.com/postsharp/PostSharp.Community.UnsafeMemoryChecker): Warn about memory access violation in unsafe code
 
 ## Quick start: How can I use PostSharp in my project?
 
