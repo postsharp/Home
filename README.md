@@ -26,19 +26,19 @@ PostSharp comes with a set of ready-made aspects for the most common patterns, a
 
 ## What can I specifically do with PostSharp?
 
-You can create your own aspects:
+### Create your own aspects
 * [Method boundary aspect](https://doc.postsharp.net/method-decorator): Add code at the beginning and end of target methods
 * [Method interception aspect](https://doc.postsharp.net/method-interception): Wrap target methods or replace method calls
 * [Location interception aspect](https://doc.postsharp.net/location-interception): Replace accesses to fields and properties
 
-You can use ready-made PostSharp Patterns aspects:
+### Use ready-made PostSharp Patterns aspects
 * [Logging](https://doc.postsharp.net/logging): Make all or target methods write traces to logs
 * [NotifyPropertyChanged](https://doc.postsharp.net/inotifypropertychanged): Auto-implement smart properties
 * [Contracts](https://doc.postsharp.net/contracts): Add runtime checks for arguments and return values
 * [Caching](https://doc.postsharp.net/caching): Cache method return values
 * *More patterns are documented at https://www.postsharp.net/.*
 
-You can use community add-ins:
+### Use community add-ins
 * [StructuralEquality](https://github.com/postsharp/PostSharp.Community.StructuralEquality): Auto-implement Equals and GetHashCode
 * [ToString](https://github.com/postsharp/PostSharp.Community.ToString): Auto-implement ToString based on fields and properties
 * [Packer](https://github.com/postsharp/PostSharp.Community.Packer): Make your project into a single-file .exe
