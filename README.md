@@ -40,6 +40,8 @@ You can use ready-made PostSharp Patterns aspects:
 
 You can use community add-ins:
 * [StructuralEquality](https://github.com/postsharp/PostSharp.Community.StructuralEquality): Auto-implement Equals and GetHashCode
+* [ToString](https://github.com/postsharp/PostSharp.Community.ToString): Auto-implement ToString based on fields and properties
+* [Packer](https://github.com/postsharp/PostSharp.Community.Packer): Make your project into a single-file .exe
 * [Virtuosity](https://github.com/postsharp/PostSharp.Community.Virtuosity): Make all your methods virtual
 * [DeepSerializable](https://github.com/postsharp/PostSharp.Community.DeepSerializable): A [Serializable]-like attribute that applies recursively.
 * [HelloWorld](https://github.com/postsharp/PostSharp.Community.HelloWorld): Base for creating your own add-in
