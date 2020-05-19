@@ -26,5 +26,5 @@ Most of the PostSharp SDK has API-level documentation and is available at https:
 
 ## How can I get help?
 
-If you're planning to release your add-in as open source, you're welcome to  [join the add-in writers Slack](https://join.slack.com/t/postsharp-addins/shared_invite/zt-d5il7j68-LRfbUOKuP7Hn2Amzb_nnDQ) to get answers to your questions. Please note we don’t have the capacity to provide support to PostSharp SDK to all users, and will focus our help on open-source contributors. Thank you for your understanding.
+If you're planning to release your add-in as open source, you're welcome to  [join the add-in writers Slack](https://join.slack.com/t/postsharp-addins/shared_invite/zt-efilf9t1-voOs5FYteLEcKeHvXtu9xQ) to get answers to your questions. Please note we don’t have the capacity to provide support to PostSharp SDK to all users, and will focus our help on open-source contributors. Thank you for your understanding. *(Before May 19th, the link was broken. Now it works.)*
 
