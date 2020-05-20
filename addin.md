@@ -1,4 +1,4 @@
-# PostSharp Add-Ins
+# PostSharp add-ins
 
 ## What are add-ins?
 
