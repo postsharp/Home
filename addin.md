@@ -6,7 +6,7 @@ A PostSharp  add-in is a NuGet package that makes use of PostSharp and modifies 
 
 Unlike aspects, add-ins use the low-level API that we call *PostSharp SDK* to directly manipulate the MSIL representation of the assembly.
 
-## Community add-ins
+## List of add-ins
 
 * [StructuralEquality](https://github.com/postsharp/PostSharp.Community.StructuralEquality): Auto-implement Equals and GetHashCode
 * [ToString](https://github.com/postsharp/PostSharp.Community.ToString): Auto-implement ToString based on fields and properties
